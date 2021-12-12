@@ -1,0 +1,16 @@
+---
+name: update-sources
+on:
+  workflow_dispatch:
+  schedule:
+    # runs every midnight
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+jobs:
+  update-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: cachix/install-nix-action@v16
+      - run: ./update.sh
