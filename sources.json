@@ -1,0 +1,22 @@
+{
+  "firefox": {
+    "version": "95.0",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/95.0/mac/en-US/Firefox%2095.0.dmg",
+    "sha256": "df8f92bbaa62ad04a70b38d71fb75b5181250fffdb6085f6698fa33cce6c0704"
+  },
+  "firefox-beta": {
+    "version": "96.0b3",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/96.0b3/mac/en-US/Firefox%2096.0b3.dmg",
+    "sha256": "045bab24bc312f1cd9c7d8620d640e2473e4435917232a0453eb408b6f8c32ad"
+  },
+  "firefox-devedition": {
+    "version": "96.0b3",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/96.0b3/mac/en-US/Firefox%2096.0b3.dmg",
+    "sha256": "a671470ebc5a9a7a6e19d04126fa22e1ddfc2262ea87398f60f1a8eb058e20d7"
+  },
+  "firefox-esr": {
+    "version": "91.4.0esr",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/91.4.0esr/mac/en-US/Firefox%2091.4.0esr.dmg",
+    "sha256": "0a951680467dfa574dcc407b2d7a290273557c1af26f0c3d13dcf062b412d1f9"
+  }
+}
