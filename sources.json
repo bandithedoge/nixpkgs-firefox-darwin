@@ -12,7 +12,7 @@
   "firefox-devedition": {
     "version": "100.0b4",
     "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/100.0b4/mac/en-US/Firefox%20100.0b4.dmg",
-    "sha256": ""
+    "sha256": "969d4981573b56cfdc7c0cee7e4b92139da9c1c84a4ddace6fe7d954bb0ad7de"
   },
   "firefox-esr": {
     "version": "91.8.0esr",
