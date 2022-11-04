@@ -1,8 +1,8 @@
 {
   "firefox": {
-    "version": "106.0.3",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/106.0.3/mac/en-US/Firefox%20106.0.3.dmg",
-    "sha256": "9fbffd89b9b1f4364592d092757947f4a8f6dc1901ac5ffc26e7751c4b1da2cf"
+    "version": "106.0.4",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/106.0.4/mac/en-US/Firefox%20106.0.4.dmg",
+    "sha256": "cc3c2e8cafb47ff1ce09f3b4623bc6551dbe73035c07a689b0e815e9dbe6b7c0"
   },
   "firefox-beta": {
     "version": "107.0b8",
