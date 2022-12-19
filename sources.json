@@ -5,14 +5,14 @@
     "sha256": "18958621a95c36b3d9dcf0329992221c2a8864a03e51a4a085cbede0ed68f036"
   },
   "firefox-beta": {
-    "version": "109.0b3",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/109.0b3/mac/en-US/Firefox%20109.0b3.dmg",
-    "sha256": "4e7f8a68e1dfce2a482cf28c86602c5e16eb9c294f3c3fc982e7c2ffa77fe9c7"
+    "version": "109.0b4",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/109.0b4/mac/en-US/Firefox%20109.0b4.dmg",
+    "sha256": "82c75dddeec07d82232810afc9f5db7a1ac327a2e3e1edac1e5979e0aaa1eeeb"
   },
   "firefox-devedition": {
-    "version": "109.0b3",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/109.0b3/mac/en-US/Firefox%20109.0b3.dmg",
-    "sha256": "5ba2b6909134fbf0ec587a2c86038e6e960fa38ba32027238feb509a8d4b7b5c"
+    "version": "109.0b4",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/109.0b4/mac/en-US/Firefox%20109.0b4.dmg",
+    "sha256": "eb943584aeca327eeb56f8e1912fbe605d0d7c8d631ab0b8e5efa293cb4e2b15"
   },
   "firefox-esr": {
     "version": "102.6.0esr",
