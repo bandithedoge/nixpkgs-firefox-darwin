@@ -1,8 +1,8 @@
 {
   "firefox": {
-    "version": "112.0",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/112.0/mac/en-US/Firefox%20112.0.dmg",
-    "sha256": "0e6cb3db3c43b69d1cacddd08389cafb0552f9f3e8abc9bf9c4ec14f2ba94380"
+    "version": "112.0.1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/112.0.1/mac/en-US/Firefox%20112.0.1.dmg",
+    "sha256": "32552a49608497638130efd39465df9f2ced5b8235966a262665c52bf7823b1f"
   },
   "firefox-beta": {
     "version": "113.0b4",
