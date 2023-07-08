@@ -1,18 +1,18 @@
 {
   "firefox": {
-    "version": "115.0",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/115.0/mac/en-US/Firefox%20115.0.dmg",
-    "sha256": "d26ba6006d9f9a793d0c599db4f1cb205f66ac8fd4a78afeb413775656c4908a"
+    "version": "115.0.1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/115.0.1/mac/en-US/Firefox%20115.0.1.dmg",
+    "sha256": "6a1ff8ae4cd01cf9b1eed7b0d0d6f8d13c03585e23dce0dd77f70516e200917a"
   },
   "firefox-beta": {
-    "version": "116.0b1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/116.0b1/mac/en-US/Firefox%20116.0b1.dmg",
-    "sha256": "a392951cdadba99c8a71cd8cc79ce7d3b453ab56b94221dcdabe5e5a9b6a9355"
+    "version": "116.0b2",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/116.0b2/mac/en-US/Firefox%20116.0b2.dmg",
+    "sha256": "1396394ed8ac9246dda232526fb0e4cb8c13e22d02520aa90712244ec9df3a58"
   },
   "firefox-devedition": {
-    "version": "116.0b1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/116.0b1/mac/en-US/Firefox%20116.0b1.dmg",
-    "sha256": "60d9698ea86280bba806bee1726f88759279fd219c278b21cb6938cc5fb0f041"
+    "version": "116.0b2",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/116.0b2/mac/en-US/Firefox%20116.0b2.dmg",
+    "sha256": "0bb4d385e0f9892d61c0702b7f021f2a21db958b64cb63f783098c762eaf3cbc"
   },
   "firefox-esr": {
     "version": "102.13.0esr",
