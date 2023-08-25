@@ -13,14 +13,14 @@ Minimal configuration example using flakes and nix-darwin:
         nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
         darwin.url = "github:lnl7/nix-darwin/master";
         darwin.inputs.nixpkgs.follows = "nixpkgs";
-        nixpkgs-firefox-darwin = "github:bandithedoge/nixpkgs-firefox-darwin";
+        nixpkgs-firefox-darwin.url = "github:bandithedoge/nixpkgs-firefox-darwin";
     };
 
     outputs = { self, darwin, nixpkgs, ... }@inputs: {
         darwinConfigurations."machine" = darwin.lib.darwinSystem {
             system = "x86_64-darwin";
             modules = [
-                { nixpkgs.overlays = [ inputs.firefox-darwin.overlay ]; }
+                { nixpkgs.overlays = [ inputs.nixpkgs-firefox-darwin.overlay ]; }
                 ./configuration.nix
             ];
         };
