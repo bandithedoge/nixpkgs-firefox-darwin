@@ -1,22 +1,22 @@
 {
   "firefox": {
-    "version": "117.0.1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/117.0.1/mac/en-US/Firefox%20117.0.1.dmg",
-    "sha256": "11a153fd97d2074d730ecf829c817410aa2901244906332dbf1e36e81ca2f912"
+    "version": "118.0",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/118.0/mac/en-US/Firefox%20118.0.dmg",
+    "sha256": "cf421d7f99ade63c0616090e18277bd9cece37cab9ccbfe62f7e1417574c9c09"
   },
   "firefox-beta": {
-    "version": "118.0b9",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/118.0b9/mac/en-US/Firefox%20118.0b9.dmg",
-    "sha256": "0794dcdace86d8e7ddd7392c191abb15c6ee71cd23a7c99ef857957c5aa36c7d"
+    "version": "119.0b1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/119.0b1/mac/en-US/Firefox%20119.0b1.dmg",
+    "sha256": "6de01c71ddb188f23f105ce33411266b2990cd87e6a7ba276402386c083a441a"
   },
   "firefox-devedition": {
-    "version": "118.0b9",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/118.0b9/mac/en-US/Firefox%20118.0b9.dmg",
-    "sha256": "3a26eb7decff61f349c255f5c20b1f72dafd96aef2ed329b77b49d8e024e1ac2"
+    "version": "119.0b1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/119.0b1/mac/en-US/Firefox%20119.0b1.dmg",
+    "sha256": "a4081479a7ca02f7c2a4a08ef03ef0189166ef32234cf1652bbc2196686bf22b"
   },
   "firefox-esr": {
-    "version": "102.15.1esr",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/102.15.1esr/mac/en-US/Firefox%20102.15.1esr.dmg",
-    "sha256": "e932a2e45a1b265e9abcb5072f646689275349ed4b05bce1fd11a01e724569b0"
+    "version": "115.3.0esr",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/115.3.0esr/mac/en-US/Firefox%20115.3.0esr.dmg",
+    "sha256": "175dbd4c47e41e8b2eab1ac3a2c93683b483ba8f9351348d3bed25c879f4105f"
   }
 }
