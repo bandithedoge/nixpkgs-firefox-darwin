@@ -1,8 +1,8 @@
 {
   "firefox": {
-    "version": "118.0.1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/118.0.1/mac/en-US/Firefox%20118.0.1.dmg",
-    "sha256": "98471851ece004dc0cf79ddb6936b86ca112bbde3b4b839961acf11b3b2e4de9"
+    "version": "118.0.2",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/118.0.2/mac/en-US/Firefox%20118.0.2.dmg",
+    "sha256": "ab8cca216aa1360763986bd1556d3e92f2294f66726ba69cabb5bd1152a5e586"
   },
   "firefox-beta": {
     "version": "119.0b7",
