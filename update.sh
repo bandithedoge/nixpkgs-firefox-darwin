@@ -31,7 +31,13 @@ function get_path() {
 		echo "devedition/releases/$(get_version "$1")"
 		;;
 	firefox-nightly)
-		echo "firefox/nightly/latest-mozilla-central"
+		date=$(curl -s "$base_url/firefox/nightly/latest-mozilla-central/firefox-$(get_version "$1").en-US.mac.buildhub.json" | jq -r ".build.date") 
+
+		year=$(date -u -d $date +"%Y")
+		month=$(date -u -d $date +"%m")
+		formatted_date=$(date -u -d $date +"%Y-%m-%d-%H-%M-%S")
+
+		echo "firefox/nightly/$year/$month/$formatted_date-mozilla-central"
 		;;
 	esac
 }
