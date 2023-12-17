@@ -30,4 +30,5 @@ in {
   firefox-beta-bin = firefoxPackage "firefox-beta";
   firefox-devedition-bin = firefoxPackage "firefox-devedition";
   firefox-esr-bin = firefoxPackage "firefox-esr";
+  firefox-nightly-bin = firefoxPackage "firefox-nightly";
 }
