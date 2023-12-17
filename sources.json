@@ -18,5 +18,10 @@
     "version": "115.5.0esr",
     "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/115.5.0esr/mac/en-US/Firefox%20115.5.0esr.dmg",
     "sha256": "2df975b17b21a0eddd67f08c619ddaed59dd9b03a43fb29bb8d0b05d54f2a16c"
+  },
+  "firefox-nightly": {
+    "version": "122.0a1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-122.0a1.en-US.mac.dmg",
+    "sha256": "544c47d2871277b753991cd30bc6ecca673d5d692fa2587f63f677128f689970"
   }
 }
