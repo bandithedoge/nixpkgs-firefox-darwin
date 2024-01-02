@@ -10,8 +10,12 @@ let
       sourceRoot = ".";
       phases = [ "unpackPhase" "installPhase" ];
       installPhase = ''
+        runHook preInstall
+
         mkdir -p $out/Applications
         cp -r Firefox*.app "$out/Applications/"
+
+        runHook postInstall
       '';
 
       src = super.fetchurl {
