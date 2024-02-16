@@ -21,7 +21,7 @@
   },
   "firefox-nightly": {
     "version": "124.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/02/2024-02-14-15-52-34-mozilla-central/firefox-124.0a1.en-US.mac.dmg",
-    "sha256": "1c5442a8ac6b96e7d14fe206750fd064a96695ee99a70e9ee8ab7780627584e3"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/02/2024-02-15-21-01-02-mozilla-central/firefox-124.0a1.en-US.mac.dmg",
+    "sha256": "59d4df37febad46943fb184746b0e43fce763446902b599662b39e5ef04f164f"
   }
 }
