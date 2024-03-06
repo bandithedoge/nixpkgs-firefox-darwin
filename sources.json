@@ -1,8 +1,8 @@
 {
   "firefox": {
-    "version": "123.0",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/123.0/mac/en-US/Firefox%20123.0.dmg",
-    "sha256": "80321c06df972dcf7d346d1137ca0d31be8988fdcf892702da77a43f4bb8a8f1"
+    "version": "123.0.1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/123.0.1/mac/en-US/Firefox%20123.0.1.dmg",
+    "sha256": "35885bacbe7c838c8de476ced3aa2dc0f8642d613c0db5b462e919da1b6cf8c7"
   },
   "firefox-beta": {
     "version": "124.0b7",
@@ -21,7 +21,7 @@
   },
   "firefox-nightly": {
     "version": "125.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/03/2024-03-04-21-25-58-mozilla-central/firefox-125.0a1.en-US.mac.dmg",
-    "sha256": "b64d930c0a1931da3d787237991ac4f8567a3e1a837179800121810b09abd607"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/03/2024-03-05-09-48-50-mozilla-central/firefox-125.0a1.en-US.mac.dmg",
+    "sha256": "a32c64f8c1e3b80a05dc70aad5adc8073afbfa1d18c9b266d4067485755304fd"
   }
 }
