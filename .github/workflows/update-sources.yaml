@@ -1,12 +1,7 @@
 ---
 name: "Update sources"
 on:
-  workflow_run:
-    workflows: ["Check evaluation"]
-    types:
-      - completed
   schedule:
-    # runs every midnight
     - cron: "0 0 * * *"
 
 jobs:
