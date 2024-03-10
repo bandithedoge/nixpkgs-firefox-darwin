@@ -4,6 +4,17 @@
 
 base_url="https://download-installer.cdn.mozilla.net/pub"
 
+function generate_json_librewolf(){
+	base_json_librewolf="$(curl -s https://gitlab.com/api/v4/projects/44042130/releases/)"
+	url="$(echo $base_json_librewolf | jq -r '.[0].assets.links[].direct_asset_url' | grep .macos-$1-package.dmg$)"
+
+	jq -n \
+		--arg version "$(echo $base_json_librewolf | jq -r '.[0].tag_name')" \
+		--arg url $url \
+		--arg sha256 "$(curl -sL $url.sha256sum)" \
+		'{version: $version, url: $url, sha256: $sha256}'
+}
+
 function get_version() {
 	curl -s "https://product-details.mozilla.org/1.0/firefox_versions.json" |
 		case $1 in
@@ -78,7 +89,9 @@ json=$(
         "firefox-beta": $(generate_json "firefox-beta"),
         "firefox-devedition": $(generate_json "firefox-devedition"),
         "firefox-esr": $(generate_json "firefox-esr"),
-	"firefox-nightly": $(generate_json "firefox-nightly")
+		"firefox-nightly": $(generate_json "firefox-nightly"),
+		"librewolf-arm64": $(generate_json_librewolf "arm64"),
+		"librewolf-x86_64": $(generate_json_librewolf "x86_64")
     }
 EOF
 )

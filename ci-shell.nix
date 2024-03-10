@@ -6,5 +6,6 @@ pkgs.mkShell {
     firefox-devedition-bin
     firefox-esr-bin
     firefox-nightly-bin
+    librewolf
   ];
 }

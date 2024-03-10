@@ -1,5 +1,14 @@
+---
 name: "Check evaluation"
-on: [push]
+on:
+  push:
+    branches:
+      - '**'
+  workflow_run:
+    workflows: ["Update sources"]
+    types:
+      - completed
+
 jobs:
   check_evaluation:
     runs-on: macos-14 # The processor on this label is M1, not x86_64
