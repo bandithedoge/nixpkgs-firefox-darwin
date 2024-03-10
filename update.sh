@@ -85,10 +85,10 @@ function generate_json() {
 json=$(
 	cat <<EOF
     {
-        "firefox": $(generate_json "firefox"),
-        "firefox-beta": $(generate_json "firefox-beta"),
-        "firefox-devedition": $(generate_json "firefox-devedition"),
-        "firefox-esr": $(generate_json "firefox-esr"),
+		"firefox": $(generate_json "firefox"),
+		"firefox-beta": $(generate_json "firefox-beta"),
+		"firefox-devedition": $(generate_json "firefox-devedition"),
+		"firefox-esr": $(generate_json "firefox-esr"),
 		"firefox-nightly": $(generate_json "firefox-nightly"),
 		"librewolf-arm64": $(generate_json_librewolf "arm64"),
 		"librewolf-x86_64": $(generate_json_librewolf "x86_64")
