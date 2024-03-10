@@ -8,6 +8,8 @@ on:
     workflows: ["Update sources"]
     types:
       - completed
+  pull_request:
+    branches: [ main ]
 
 jobs:
   check_evaluation:
