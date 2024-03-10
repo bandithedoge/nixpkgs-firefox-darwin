@@ -1,6 +1,6 @@
 # nixpkgs-firefox-darwin
 
-The `firefox` packages in Nixpkgs have been broken on Darwin for ages and the `-bin` variants don't support Darwin at all. This overlay aims to fix that by providing `-bin` packages for Firefox generated from official builds.
+The Nixpkgs repository has long struggled with broken `firefox` and `librewolf` packages on Darwin. Unfortunately, the `-bin` variants do not offer any support for Darwin. To address this issue, this overlay has been created, aiming to provide `-bin` packages for Firefox and Librewolf, generated directly from official builds.
 
 ## How to use it
 
@@ -32,7 +32,7 @@ Minimal configuration example using flakes, nix-darwin and home-manager:
 
               # IMPORTANT: use a package provided by the overlay (ends with `-bin`)
               # see overlay.nix for all possible packages
-              package = pkgs.firefox-bin;
+              package = pkgs.firefox-bin; # Or pkgs.librewolf if you're using librewolf
             };
           };
         }
