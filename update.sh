@@ -15,6 +15,22 @@ function generate_json_librewolf(){
 		'{version: $version, url: $url, sha256: $sha256}'
 }
 
+function generate_json_floorp(){
+    base_json_floorp="$(curl -s https://api.github.com/repos/Floorp-Projects/Floorp/releases/latest)"
+    url="$(echo $base_json_floorp | jq -r '.assets[].browser_download_url' | grep .floorp-macOS-*)"
+
+    temp_file="/tmp/floorp-macOS-universal.dmg"
+    curl -Ls -o $temp_file $url
+
+    sha256="$(shasum -a 256 $temp_file | awk '{print $1}')"
+
+    jq -n \
+        --arg version "$(echo $base_json_floorp | jq -r '.tag_name')" \
+        --arg url $url \
+        --arg sha256 "$sha256" \
+        '{version: $version, url: $url, sha256: $sha256}'
+}
+
 function get_version() {
 	curl -s "https://product-details.mozilla.org/1.0/firefox_versions.json" |
 		case $1 in
@@ -91,7 +107,8 @@ json=$(
 		"firefox-esr": $(generate_json "firefox-esr"),
 		"firefox-nightly": $(generate_json "firefox-nightly"),
 		"librewolf-arm64": $(generate_json_librewolf "arm64"),
-		"librewolf-x86_64": $(generate_json_librewolf "x86_64")
+		"librewolf-x86_64": $(generate_json_librewolf "x86_64"),
+		"floorp-x86_64": $(generate_json_floorp "x86_64")
     }
 EOF
 )
