@@ -32,7 +32,7 @@ Minimal configuration example using flakes, nix-darwin and home-manager:
 
               # IMPORTANT: use a package provided by the overlay (ends with `-bin`)
               # see overlay.nix for all possible packages
-              package = pkgs.firefox-bin; # Or pkgs.librewolf if you're using librewolf
+              package = pkgs.firefox-bin; # Or use pkgs.librewolf for Librewolf or pkgs.floorp-bin for Floorp
             };
           };
         }

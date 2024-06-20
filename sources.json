@@ -33,5 +33,10 @@
     "version": "127.0-1",
     "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/127.0-1/librewolf-127.0-1-macos-x86_64-package.dmg",
     "sha256": "8c5ba999c5560646c2ecfea9209adfd812034b5498a7da3e38652d98098ce6b1"
+  },
+  "floorp-x86_64": {
+    "version": "v11.14.1",
+    "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v11.14.1/floorp-macOS-universal.dmg",
+    "sha256": "da3f35128bae9595ebaf0b28abf0e9e9164239bd5df2afa5a81d08ae4434fa81"
   }
 }

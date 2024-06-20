@@ -7,5 +7,6 @@ pkgs.mkShell {
     firefox-esr-bin
     firefox-nightly-bin
     librewolf
+    floorp-bin
   ];
 }

@@ -29,6 +29,41 @@ let
       };
     };
 
+  floorpPackage = edition:
+    super.stdenv.mkDerivation rec {
+      inherit (sources."${edition}") version;
+      pname = "Floorp";
+  
+      buildInputs = [ super.pkgs._7zz ];
+      sourceRoot = ".";
+      phases = [ "unpackPhase" "installPhase" ];
+  
+      unpackPhase = ''
+        runHook preUnpack
+        7zz x "$src" -o"$sourceRoot"
+        runHook postUnpack
+      '';
+
+      installPhase = ''
+        runHook preInstall
+    
+        mkdir -p $out/Applications
+        cp -r Floorp.app "$out/Applications/"
+    
+        runHook postInstall
+      '';
+
+      src = super.fetchurl {
+        name = "Floorp-${version}.dmg";
+        inherit (sources."${edition}") url sha256;
+      };
+  
+      meta = {
+        description = "Floorp is a new Firefox based browser from Japan with excellent privacy & flexibility.";
+        homepage = "https://floorp.app/en";
+      };
+    };
+
   librewolfPackage = edition:
     super.stdenv.mkDerivation rec {
       inherit (sources."${edition}") version;
@@ -63,4 +98,5 @@ in {
   firefox-esr-bin = firefoxPackage "firefox-esr";
   firefox-nightly-bin = firefoxPackage "firefox-nightly";
   librewolf = if super.pkgs.system == "x86_64-darwin" then librewolfPackage "librewolf-x86_64" else librewolfPackage "librewolf-arm64";
+  floorp-bin = floorpPackage "floorp-x86_64";
 }
