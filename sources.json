@@ -1,18 +1,18 @@
 {
   "firefox": {
-    "version": "128.0.2",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.0.2/mac/en-US/Firefox%20128.0.2.dmg",
-    "sha256": "66cfc0e8880bb4730d1e15265377db7ee08d4dcb2ab46356e60f38773c310c24"
+    "version": "128.0.3",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.0.3/mac/en-US/Firefox%20128.0.3.dmg",
+    "sha256": "bd9b7a006b869a29ad09948a018d9af6ae85d4da2fc663624d1436892f0d3731"
   },
   "firefox-beta": {
-    "version": "129.0b8",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/129.0b8/mac/en-US/Firefox%20129.0b8.dmg",
-    "sha256": "7549a92e1951b53e2873a9fbad6c890fd914156131780e6f826289e33ed8ba55"
+    "version": "129.0b9",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/129.0b9/mac/en-US/Firefox%20129.0b9.dmg",
+    "sha256": "08227fd8820fa55bc8ce9b98bb6a7060b01718f24f5a4e2f50ff9271489ea263"
   },
   "firefox-devedition": {
-    "version": "129.0b8",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/129.0b8/mac/en-US/Firefox%20129.0b8.dmg",
-    "sha256": "d99a9381f0862c9a15b9e05ebf6b5684f9622444413cca23ab906394dcb421ed"
+    "version": "129.0b9",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/129.0b9/mac/en-US/Firefox%20129.0b9.dmg",
+    "sha256": "9576f9ea2be59a0d9dd49aa8247c20b386fb11748778f965509086683ca6ded2"
   },
   "firefox-esr": {
     "version": "115.13.0esr",
@@ -21,8 +21,8 @@
   },
   "firefox-nightly": {
     "version": "130.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/07/2024-07-25-16-05-53-mozilla-central/firefox-130.0a1.en-US.mac.dmg",
-    "sha256": "2dd76bb8740c5ad9ef2fc836aedc7d391dd09e5726d9a57b951eafa895555cd5"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/07/2024-07-26-15-24-30-mozilla-central/firefox-130.0a1.en-US.mac.dmg",
+    "sha256": "e3586b4438df3dc1201ccc60fbdd7be582dfe3ec8a7b9fd15459de529e6549a7"
   },
   "librewolf-arm64": {
     "version": "128.0-2",
