@@ -5,14 +5,14 @@
     "sha256": "c89ee9abcf7a3554959a7d2db0a5a748be3ae2c30d7c170b879de10e46127602"
   },
   "firefox-beta": {
-    "version": "131.0b3",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/131.0b3/mac/en-US/Firefox%20131.0b3.dmg",
-    "sha256": "e411aa2258577eaeb3c548f62591bcff48214b00cdfe8546bf8bf9556795b3a5"
+    "version": "131.0b4",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/131.0b4/mac/en-US/Firefox%20131.0b4.dmg",
+    "sha256": "d455e21bd02e55fa0c62e75d54f474a8f3f4bcdb708066479637a9bfbae7e8c7"
   },
   "firefox-devedition": {
-    "version": "131.0b3",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/131.0b3/mac/en-US/Firefox%20131.0b3.dmg",
-    "sha256": "074e4b624dd75f435dc55a91a85c5fe990f57d7883409bf46dc58060fd364db1"
+    "version": "131.0b4",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/131.0b4/mac/en-US/Firefox%20131.0b4.dmg",
+    "sha256": "126aa25fcd8ec240757571d737fe7fa1d7b94f34901bbd8178c6be24ba72c676"
   },
   "firefox-esr": {
     "version": "115.15.0esr",
@@ -21,8 +21,8 @@
   },
   "firefox-nightly": {
     "version": "132.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/09/2024-09-08-21-18-00-mozilla-central/firefox-132.0a1.en-US.mac.dmg",
-    "sha256": "1124b8e8c7b0b61774b21be707fcfeb2fcf1422d1b43fc5705919286cbbed0d6"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/09/2024-09-09-09-25-18-mozilla-central/firefox-132.0a1.en-US.mac.dmg",
+    "sha256": "20f5e10e5628b20e371231d1a1c3f7d0d4de231caee643fcead16e2817b7bcdf"
   },
   "librewolf-arm64": {
     "version": "130.0-3",
@@ -35,8 +35,8 @@
     "sha256": "0cc383c1ede04580b8abd031739b7ce435892201d6b7a897fb044fdd2528ffd6"
   },
   "floorp-x86_64": {
-    "version": "v11.18.0",
-    "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v11.18.0/floorp-macOS-universal.dmg",
-    "sha256": "9c16c0fc1b33af2d0aada272c67ba5f0eb1b96845985e1e07366d1f0c07e6687"
+    "version": "v11.18.1",
+    "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v11.18.1/floorp-macOS-universal.dmg",
+    "sha256": "db71a8b74b3a1ca8504518f8ac3645ada2b25ce55978c4c021afa524b45cf891"
   }
 }
