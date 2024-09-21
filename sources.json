@@ -5,14 +5,14 @@
     "sha256": "63ed878485d5498c269d95ba7e64f1104ed085b8e330b0ef0a565f85cc603426"
   },
   "firefox-beta": {
-    "version": "131.0b8",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/131.0b8/mac/en-US/Firefox%20131.0b8.dmg",
-    "sha256": "8acb3265bdf9859abfbb58604f5b253a0efe1fab7b82d4ae7d3983706ac5427b"
+    "version": "131.0b9",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/131.0b9/mac/en-US/Firefox%20131.0b9.dmg",
+    "sha256": "ef8311a12810be31b6c80a5042887c6a59f7596f02d220bf0ebeb24548384095"
   },
   "firefox-devedition": {
-    "version": "131.0b8",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/131.0b8/mac/en-US/Firefox%20131.0b8.dmg",
-    "sha256": "4df6185bc5046e4fdbf8bd58fc2f4885c5a142b39321029c0fb36b1533ea7175"
+    "version": "131.0b9",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/131.0b9/mac/en-US/Firefox%20131.0b9.dmg",
+    "sha256": "912c8a2225933478ac16f28f0ee9b72723fef287347ecb10db1cee72930e835f"
   },
   "firefox-esr": {
     "version": "115.15.0esr",
@@ -21,18 +21,18 @@
   },
   "firefox-nightly": {
     "version": "132.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/09/2024-09-19-21-27-30-mozilla-central/firefox-132.0a1.en-US.mac.dmg",
-    "sha256": "e1b16010fe17d2344d7299d4f9eb5ebe8f12f521bbcdc049dc52d3f0a8d74675"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/09/2024-09-20-21-49-04-mozilla-central/firefox-132.0a1.en-US.mac.dmg",
+    "sha256": "e91295d93822d033c5ef09aec56ee1882edf4103aca20990e4a2ed90ce29296e"
   },
   "librewolf-arm64": {
-    "version": "130.0-3",
-    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/130.0-3/librewolf-130.0-3-macos-arm64-package.dmg",
-    "sha256": "ac69fd6c00083593f22c21cc16408c5cf8f10a126018244b7c021286bbafccee"
+    "version": "130.0.1-1",
+    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/130.0.1-1/librewolf-130.0.1-1-macos-arm64-package.dmg",
+    "sha256": "9a8d2da8c23b19bb33441b09f229a3e40338795657f3e99cc9eac53903009003"
   },
   "librewolf-x86_64": {
-    "version": "130.0-3",
-    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/130.0-3/librewolf-130.0-3-macos-x86_64-package.dmg",
-    "sha256": "0cc383c1ede04580b8abd031739b7ce435892201d6b7a897fb044fdd2528ffd6"
+    "version": "130.0.1-1",
+    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/130.0.1-1/librewolf-130.0.1-1-macos-x86_64-package.dmg",
+    "sha256": "d9e8e1ba141a95154689af9cae52e4fdc3a1194c9565fd30ea5cc08a0c968365"
   },
   "floorp-x86_64": {
     "version": "v11.18.1",
