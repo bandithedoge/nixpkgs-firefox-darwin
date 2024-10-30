@@ -1,28 +1,28 @@
 {
   "firefox": {
-    "version": "131.0.3",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/131.0.3/mac/en-US/Firefox%20131.0.3.dmg",
-    "sha256": "7a4714e20b4f2099056e4c79921291256278174273d57bff09771f98774ff513"
+    "version": "132.0",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/132.0/mac/en-US/Firefox%20132.0.dmg",
+    "sha256": "5924171ce774ba8d102ddb45c573ff8acd4e0c289b62597f941ca58d79289704"
   },
   "firefox-beta": {
-    "version": "132.0b9",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/132.0b9/mac/en-US/Firefox%20132.0b9.dmg",
-    "sha256": "ea881ca8534abe144005d49415e82b3c4c36db9d81d1ab0461e941e75d8593a6"
+    "version": "133.0b1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/133.0b1/mac/en-US/Firefox%20133.0b1.dmg",
+    "sha256": "999529fe32c8630c234b6cff09a204a1c178ca8fc1a4e17c66097b943a87ebc4"
   },
   "firefox-devedition": {
-    "version": "132.0b9",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/132.0b9/mac/en-US/Firefox%20132.0b9.dmg",
-    "sha256": "629fe964d25388b86f7a1f2c35fad48a785f990f33ed5bd901972d6e6dc07166"
+    "version": "133.0b1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/133.0b1/mac/en-US/Firefox%20133.0b1.dmg",
+    "sha256": "9c1b5a3a53d33f1cfc92a06f6f12b25891692183a9cb3d6adf45db6e978f172a"
   },
   "firefox-esr": {
-    "version": "128.3.1esr",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.3.1esr/mac/en-US/Firefox%20128.3.1esr.dmg",
-    "sha256": "81a0b8bd9ed1307c4653137c3590d308cf37099a740674199b52fde0b2baed4a"
+    "version": "128.4.0esr",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.4.0esr/mac/en-US/Firefox%20128.4.0esr.dmg",
+    "sha256": "4b5ff9c847d76b0768e0a5be4ac82f320610a41188ad8ac21f48136bc27f117f"
   },
   "firefox-nightly": {
-    "version": "133.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/10/2024-10-28-09-56-35-mozilla-central/firefox-133.0a1.en-US.mac.dmg",
-    "sha256": "20812f9c940628433cb76d83968f2ed64aa6934f0705f6c89d6d048ec718f0d6"
+    "version": "134.0a1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/10/2024-10-29-15-50-57-mozilla-central/firefox-134.0a1.en-US.mac.dmg",
+    "sha256": "39722db8cb3c1c85c7faa47ebb9dffa384527566d9f09f58d3d959cc58aeb3af"
   },
   "librewolf-arm64": {
     "version": "131.0.3-1",
@@ -35,8 +35,8 @@
     "sha256": "e7c3a679bf303b76da436a32e82b846a86f5062e59150e60bae29136e1032090"
   },
   "floorp-x86_64": {
-    "version": "v11.19.1",
-    "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v11.19.1/floorp-macOS-universal.dmg",
-    "sha256": "aecdde85680dc85f3291f2f4364ebc5b965e5060409f5b480728babce0dd722b"
+    "version": "v11.20.0",
+    "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v11.20.0/floorp-macOS-universal.dmg",
+    "sha256": "bb3e81ba2c1733e1c90d6d9bd30aadf8ce015fe12709bdcb3bee1a6e38b2075d"
   }
 }
