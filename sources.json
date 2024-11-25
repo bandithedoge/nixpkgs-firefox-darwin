@@ -21,8 +21,8 @@
   },
   "firefox-nightly": {
     "version": "134.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/11/2024-11-23-09-01-38-mozilla-central/firefox-134.0a1.en-US.mac.dmg",
-    "sha256": "e91f079ed2357366a8745fff9086dfb035d7960e723afca061d51e75aaff7bf0"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2024/11/2024-11-24-09-44-41-mozilla-central/firefox-134.0a1.en-US.mac.dmg",
+    "sha256": "718a1d8386f1abe4a33357156ffaafd1e7712ff74136683e94f38e95be8a455d"
   },
   "librewolf-arm64": {
     "version": "132.0.2-1",
@@ -35,8 +35,8 @@
     "sha256": "08b4243d08ec51c0ac34ef2406a9c59ee8f0674e47a5271779cc7fa631ab7e71"
   },
   "floorp-x86_64": {
-    "version": "v11.20.0",
-    "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v11.20.0/floorp-macOS-universal.dmg",
-    "sha256": "bb3e81ba2c1733e1c90d6d9bd30aadf8ce015fe12709bdcb3bee1a6e38b2075d"
+    "version": "v11.21.0",
+    "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v11.21.0/floorp-macOS-universal.dmg",
+    "sha256": "9bf3c5b162fb0f4f07a67b8729a9ea7e4171ff8bb9b57e580986da2d7f31b819"
   }
 }
