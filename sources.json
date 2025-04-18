@@ -21,18 +21,18 @@
   },
   "firefox-nightly": {
     "version": "139.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/04/2025-04-16-21-43-20-mozilla-central/firefox-139.0a1.en-US.mac.dmg",
-    "sha256": "947b0c0b434159e7123a379743127a18e75557f1aba63b0892d4a0d09eadba58"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/04/2025-04-17-16-30-04-mozilla-central/firefox-139.0a1.en-US.mac.dmg",
+    "sha256": "dd851e9227b7e0bd1c084e0bde60095c5a6963e24d6534d34442150e1f4c5fb1"
   },
   "librewolf-arm64": {
-    "version": "137.0.2-1",
-    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/137.0.2-1/librewolf-137.0.2-1-macos-arm64-package.dmg",
-    "sha256": "963992e9cfce05eead7bed40cf498e6c17e0241edf5ad42ddb69be111958ede2"
+    "version": "137.0.1-1",
+    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/137.0.1-1/librewolf-137.0.1-1-macos-arm64-package.dmg",
+    "sha256": "da02366abf24bd5d2886bf7b0c9523ae83d1dfd62b6be503b34c0a1ce380d1ac"
   },
   "librewolf-x86_64": {
-    "version": "137.0.2-1",
-    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/137.0.2-1/librewolf-137.0.2-1-macos-x86_64-package.dmg",
-    "sha256": "c055d063d61ffd3eb9cd35bc0155c57fd782bdcb7a9b3bdf2ccd05b11700809f"
+    "version": "137.0.1-1",
+    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/137.0.1-1/librewolf-137.0.1-1-macos-x86_64-package.dmg",
+    "sha256": "d449fb394156ea07e81244667f8f943b0818e9ca9a075f78cb8b20d6e729129d"
   },
   "floorp-x86_64": {
     "version": "v11.25.0",
