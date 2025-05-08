@@ -91,6 +91,34 @@ let
         homepage = "http://www.mozilla.com/en-US/firefox/";
       };
     };
+
+  zen-browserPackage = edition:
+    super.stdenv.mkDerivation rec {
+      inherit (sources."${edition}") version;
+      pname = "zen-browser";
+
+      buildInputs = [ super.pkgs.undmg ];
+      sourceRoot = ".";
+      phases = [ "unpackPhase" "installPhase" ];
+      installPhase = ''
+        runHook preInstall
+
+        mkdir -p $out/Applications
+        cp -r Zen.app "$out/Applications/"
+
+        runHook postInstall
+      '';
+
+      src = super.fetchurl {
+        name = "Zen-${version}.dmg";
+        inherit (sources."${edition}") url sha256;
+      };
+
+      meta = {
+        description = "Firefox based browser with a focus on privacy and customization";
+        homepage = "https://www.zen-browser.app/";
+      };
+    };
 in {
   firefox-bin = firefoxPackage "firefox";
   firefox-beta-bin = firefoxPackage "firefox-beta";
@@ -99,4 +127,5 @@ in {
   firefox-nightly-bin = firefoxPackage "firefox-nightly";
   librewolf = if super.pkgs.system == "x86_64-darwin" then librewolfPackage "librewolf-x86_64" else librewolfPackage "librewolf-arm64";
   floorp-bin = floorpPackage "floorp-x86_64";
+  zen-browser-bin = zen-browserPackage "zen-browser";
 }

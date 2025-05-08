@@ -8,5 +8,6 @@ pkgs.mkShell {
     firefox-nightly-bin
     librewolf
     floorp-bin
+    zen-browser-bin
   ];
 }
