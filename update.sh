@@ -31,6 +31,32 @@ function generate_json_floorp(){
         '{version: $version, url: $url, sha256: $sha256}'
 }
 
+function generate_json_zen_browser() {
+  base_json_zen_browser="$(get_github_json "zen-browser/desktop")"
+  
+  generate_json_github "$base_json_zen_browser" "zen.macos-*"
+}
+
+function get_github_json() {
+  curl -s -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$1/releases/latest"
+}
+
+function generate_json_github() {
+  url="$(echo $1 | jq -r '.assets[].browser_download_url' | grep $2)"
+
+  temp_file="$(mktemp)"
+  curl -Ls -o $temp_file $url
+
+  sha256="$(shasum -a 256 $temp_file | awk '{print $1}')"
+
+  jq -n \
+    --arg version "$(echo "$1" | jq -r '.tag_name')" \
+    --arg url $url \
+    --arg sha256 "$sha256" \
+    '{version: $version, url: $url, sha256: $sha256}'
+}
+
+
 function get_version() {
 	curl -s "https://product-details.mozilla.org/1.0/firefox_versions.json" |
 		case $1 in
@@ -108,7 +134,8 @@ json=$(
 		"firefox-nightly": $(generate_json "firefox-nightly"),
 		"librewolf-arm64": $(generate_json_librewolf "arm64"),
 		"librewolf-x86_64": $(generate_json_librewolf "x86_64"),
-		"floorp-x86_64": $(generate_json_floorp "x86_64")
+		"floorp-x86_64": $(generate_json_floorp "x86_64"),
+    "zen-browser": $(generate_json_zen_browser)
     }
 EOF
 )
