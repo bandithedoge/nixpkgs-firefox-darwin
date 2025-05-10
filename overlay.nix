@@ -1,5 +1,4 @@
-self: super:
-let
+self: super: let
   sources = builtins.fromJSON (builtins.readFile ./sources.json);
 
   firefoxPackage = args @ {
@@ -109,9 +108,9 @@ let
       inherit (sources."${edition}") version;
       pname = "Librewolf";
 
-      buildInputs = [ super.pkgs.undmg ];
+      buildInputs = [super.pkgs.undmg];
       sourceRoot = ".";
-      phases = [ "unpackPhase" "installPhase" ];
+      phases = ["unpackPhase" "installPhase"];
       installPhase = ''
         runHook preInstall
 
@@ -137,9 +136,9 @@ let
       inherit (sources."${edition}") version;
       pname = "zen-browser";
 
-      buildInputs = [ super.pkgs.undmg ];
+      buildInputs = [super.pkgs.undmg];
       sourceRoot = ".";
-      phases = [ "unpackPhase" "installPhase" ];
+      phases = ["unpackPhase" "installPhase"];
       installPhase = ''
         runHook preInstall
 

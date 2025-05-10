@@ -1,6 +1,6 @@
 # nixpkgs-firefox-darwin
 
-The Nixpkgs repository has long struggled with broken `firefox`, `librewolf`, and `floorp` packages on Darwin. Unfortunately, the `-bin` variants do not offer any support for Darwin. To address this issue, this overlay has been created, aiming to provide `-bin` packages for Firefox, Librewolf, and Floorp, generated directly from official builds.
+The Nixpkgs repository has long struggled with broken `firefox`, `librewolf`, and `floorp` packages on Darwin. Unfortunately, the `-bin` variants do not offer any support for Darwin. To address this issue, this overlay has been created, aiming to provide `-bin` packages for Firefox, Librewolf, Floorp, & Zen Browser generated directly from official builds.
 
 ## How to use it
 
