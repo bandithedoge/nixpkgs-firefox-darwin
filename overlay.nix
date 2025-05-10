@@ -1,14 +1,13 @@
-self: super:
-let
+self: super: let
   sources = builtins.fromJSON (builtins.readFile ./sources.json);
   firefoxPackage = edition:
     super.stdenv.mkDerivation rec {
       inherit (sources."${edition}") version;
       pname = "Firefox";
 
-      buildInputs = [ super.pkgs.undmg ];
+      buildInputs = [super.pkgs.undmg];
       sourceRoot = ".";
-      phases = [ "unpackPhase" "installPhase" ];
+      phases = ["unpackPhase" "installPhase"];
       installPhase = ''
         runHook preInstall
 
@@ -33,11 +32,11 @@ let
     super.stdenv.mkDerivation rec {
       inherit (sources."${edition}") version;
       pname = "Floorp";
-  
-      buildInputs = [ super.pkgs._7zz ];
+
+      buildInputs = [super.pkgs._7zz];
       sourceRoot = ".";
-      phases = [ "unpackPhase" "installPhase" ];
-  
+      phases = ["unpackPhase" "installPhase"];
+
       unpackPhase = ''
         runHook preUnpack
         7zz x "$src" -o"$sourceRoot"
@@ -46,10 +45,10 @@ let
 
       installPhase = ''
         runHook preInstall
-    
+
         mkdir -p $out/Applications
         cp -r Floorp.app "$out/Applications/"
-    
+
         runHook postInstall
       '';
 
@@ -57,7 +56,7 @@ let
         name = "Floorp-${version}.dmg";
         inherit (sources."${edition}") url sha256;
       };
-  
+
       meta = {
         description = "Floorp is a new Firefox based browser from Japan with excellent privacy & flexibility.";
         homepage = "https://floorp.app/en";
@@ -69,9 +68,9 @@ let
       inherit (sources."${edition}") version;
       pname = "Librewolf";
 
-      buildInputs = [ super.pkgs.undmg ];
+      buildInputs = [super.pkgs.undmg];
       sourceRoot = ".";
-      phases = [ "unpackPhase" "installPhase" ];
+      phases = ["unpackPhase" "installPhase"];
       installPhase = ''
         runHook preInstall
 
@@ -97,9 +96,9 @@ let
       inherit (sources."${edition}") version;
       pname = "zen-browser";
 
-      buildInputs = [ super.pkgs.undmg ];
+      buildInputs = [super.pkgs.undmg];
       sourceRoot = ".";
-      phases = [ "unpackPhase" "installPhase" ];
+      phases = ["unpackPhase" "installPhase"];
       installPhase = ''
         runHook preInstall
 
@@ -125,7 +124,10 @@ in {
   firefox-devedition-bin = firefoxPackage "firefox-devedition";
   firefox-esr-bin = firefoxPackage "firefox-esr";
   firefox-nightly-bin = firefoxPackage "firefox-nightly";
-  librewolf = if super.pkgs.system == "x86_64-darwin" then librewolfPackage "librewolf-x86_64" else librewolfPackage "librewolf-arm64";
+  librewolf =
+    if super.pkgs.system == "x86_64-darwin"
+    then librewolfPackage "librewolf-x86_64"
+    else librewolfPackage "librewolf-arm64";
   floorp-bin = floorpPackage "floorp-x86_64";
   zen-browser-bin = zen-browserPackage "zen-browser";
 }
