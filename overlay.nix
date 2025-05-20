@@ -1,12 +1,12 @@
 self: super: let
-  sources = builtins.fromJSON (builtins.readFile ./sources.json);
+  sources = super.lib.strings.fromJSON (super.lib.strings.readFile ./sources.json);
 
   firefoxPackage = args @ {
     edition,
     extraFiles ? {},
     ...
   }:
-    super.stdenv.mkDerivation (rec {
+    super.stdenvNoCC.mkDerivation (rec {
         inherit (sources."${edition}") version;
         pname = "Firefox";
 
@@ -14,12 +14,12 @@ self: super: let
         sourceRoot = ".";
         phases = ["unpackPhase" "installPhase"];
 
-        extraFilesPaths = builtins.map (x: x.source) (builtins.attrValues extraFiles);
-        extraFilesTargets = builtins.attrNames extraFiles;
-        extraFilesRecursive = builtins.map (x:
+        extraFilesPaths = super.lib.lists.map (x: x.source) (super.lib.attrsets.attrValues extraFiles);
+        extraFilesTargets = super.lib.attrsets.attrNames extraFiles;
+        extraFilesRecursive = super.lib.lists.map (x:
           if x.recursive or false
           then "true"
-          else "false") (builtins.attrValues extraFiles);
+          else "false") (super.lib.attrsets.attrValues extraFiles);
 
         installPhase = ''
           runHook preInstall
@@ -66,10 +66,10 @@ self: super: let
           homepage = "http://www.mozilla.com/en-US/firefox/";
         };
       }
-      // builtins.removeAttrs args ["edition" "extraFiles"]);
+      // super.lib.attrsets.removeAttrs args ["edition" "extraFiles"]);
 
   floorpPackage = edition:
-    super.stdenv.mkDerivation rec {
+    super.stdenvNoCC.mkDerivation rec {
       inherit (sources."${edition}") version;
       pname = "Floorp";
 
@@ -104,7 +104,7 @@ self: super: let
     };
 
   librewolfPackage = edition:
-    super.stdenv.mkDerivation rec {
+    super.stdenvNoCC.mkDerivation rec {
       inherit (sources."${edition}") version;
       pname = "Librewolf";
 
@@ -132,7 +132,7 @@ self: super: let
     };
 
   zen-browserPackage = edition:
-    super.stdenv.mkDerivation rec {
+    super.stdenvNoCC.mkDerivation rec {
       inherit (sources."${edition}") version;
       pname = "zen-browser";
 
@@ -159,11 +159,11 @@ self: super: let
       };
     };
 in {
-  firefox-bin = super.lib.makeOverridable firefoxPackage {edition = "firefox";};
-  firefox-beta-bin = super.lib.makeOverridable firefoxPackage {edition = "firefox-beta";};
-  firefox-devedition-bin = super.lib.makeOverridable firefoxPackage {edition = "firefox-devedition";};
-  firefox-esr-bin = super.lib.makeOverridable firefoxPackage {edition = "firefox-esr";};
-  firefox-nightly-bin = super.lib.makeOverridable firefoxPackage {edition = "firefox-nightly";};
+  firefox-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox";};
+  firefox-beta-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox-beta";};
+  firefox-devedition-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox-devedition";};
+  firefox-esr-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox-esr";};
+  firefox-nightly-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox-nightly";};
   librewolf =
     if super.pkgs.system == "x86_64-darwin"
     then librewolfPackage "librewolf-x86_64"
