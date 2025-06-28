@@ -1,18 +1,18 @@
 {
   "firefox": {
-    "version": "140.0.1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.0.1/mac/en-US/Firefox%20140.0.1.dmg",
-    "sha256": "1049b957e497df1a9ab5fdfad971b02f00f3573029a23cbb930bc4fa60d2c7b4"
+    "version": "140.0.2",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.0.2/mac/en-US/Firefox%20140.0.2.dmg",
+    "sha256": "4584538f48fc104a83cd5b62b72f027e70bffb8cb6ea56dd24e3657347cfa979"
   },
   "firefox-beta": {
-    "version": "141.0b2",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/141.0b2/mac/en-US/Firefox%20141.0b2.dmg",
-    "sha256": "16ee4e04eae3db7e7f08fc8953b06f0cc4b55899da739608d9da4cd4750b1da6"
+    "version": "141.0b3",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/141.0b3/mac/en-US/Firefox%20141.0b3.dmg",
+    "sha256": "47dc6a456bc80baa784381e94f4dc4f2f7ddfdf94b0af0bb20d9678f16d28898"
   },
   "firefox-devedition": {
-    "version": "141.0b2",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/141.0b2/mac/en-US/Firefox%20141.0b2.dmg",
-    "sha256": "31052d9531a0bcdc6016bdd9dbd50409ec092a423f3cb5804fa12bc35c035bf0"
+    "version": "141.0b3",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/141.0b3/mac/en-US/Firefox%20141.0b3.dmg",
+    "sha256": "55dbf1b60ea3f88f0eb2e4f3495cc4706b5293aad1aec391b99f352f8cdfddc6"
   },
   "firefox-esr": {
     "version": "128.12.0esr",
@@ -21,8 +21,8 @@
   },
   "firefox-nightly": {
     "version": "142.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/06/2025-06-26-03-47-03-mozilla-central/firefox-142.0a1.en-US.mac.dmg",
-    "sha256": "9498ccdf60e68e52ec547c9fae6370b174af5d7067a43917e57f4729aaf153b7"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/06/2025-06-27-16-09-56-mozilla-central/firefox-142.0a1.en-US.mac.dmg",
+    "sha256": "9d8a9db2920160a6ad0f3deb8d9c16eafcb916e61bd8c4f2735be986005d9db3"
   },
   "librewolf-arm64": {
     "version": "139.0.4-1",
