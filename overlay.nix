@@ -1,35 +1,75 @@
 self: super: let
-  sources = builtins.fromJSON (builtins.readFile ./sources.json);
-  firefoxPackage = edition:
-    super.stdenv.mkDerivation rec {
-      inherit (sources."${edition}") version;
-      pname = "Firefox";
+  sources = super.lib.strings.fromJSON (super.lib.strings.readFile ./sources.json);
 
-      buildInputs = [super.pkgs.undmg];
-      sourceRoot = ".";
-      phases = ["unpackPhase" "installPhase"];
-      installPhase = ''
-        runHook preInstall
+  firefoxPackage = args @ {
+    edition,
+    extraFiles ? {},
+    ...
+  }:
+    super.stdenvNoCC.mkDerivation (rec {
+        inherit (sources."${edition}") version;
+        pname = "Firefox";
 
-        mkdir -p $out/Applications
-        cp -r Firefox*.app "$out/Applications/"
+        buildInputs = [super.pkgs.undmg];
+        sourceRoot = ".";
+        phases = ["unpackPhase" "installPhase"];
 
-        runHook postInstall
-      '';
+        extraFilesPaths = super.lib.lists.map (x: x.source) (super.lib.attrsets.attrValues extraFiles);
+        extraFilesTargets = super.lib.attrsets.attrNames extraFiles;
+        extraFilesRecursive = super.lib.lists.map (x:
+          if x.recursive or false
+          then "true"
+          else "false") (super.lib.attrsets.attrValues extraFiles);
 
-      src = super.fetchurl {
-        name = "Firefox-${version}.dmg";
-        inherit (sources."${edition}") url sha256;
-      };
+        installPhase = ''
+          runHook preInstall
 
-      meta = {
-        description = "Mozilla Firefox, free web browser (binary package)";
-        homepage = "http://www.mozilla.com/en-US/firefox/";
-      };
-    };
+          mkdir -p $out/Applications
+          cp -r Firefox*.app "$out/Applications/"
+
+          if [ -n "$extraFilesPaths" ]; then
+            extraFilesPathsArr=($extraFilesPaths)
+            extraFilesTargetsArr=($extraFilesTargets)
+            extraFilesRecursiveArr=($extraFilesRecursive)
+
+            for i in "''${!extraFilesPathsArr[@]}"; do
+              source_path="''${extraFilesPathsArr[$i]}"
+              target_path_suffix="''${extraFilesTargetsArr[$i]}"
+              recursive_copy="''${extraFilesRecursiveArr[$i]}"
+
+              target_base_dir="$out/Applications/Firefox.app/Contents/Resources"
+              full_target_path="$target_base_dir/$target_path_suffix"
+
+              mkdir -p "$(dirname "$full_target_path")"
+
+              if [[ "$recursive_copy" == "true" ]]; then
+                mkdir -p "$full_target_path"
+                echo "Copying directory $source_path to $full_target_path"
+                cp -R "$source_path/"* "$full_target_path/"
+              else
+                echo "Copying file $source_path to $full_target_path"
+                cp "$source_path" "$full_target_path"
+              fi
+            done
+          fi
+
+          runHook postInstall
+        '';
+
+        src = super.fetchurl {
+          name = "Firefox-${version}.dmg";
+          inherit (sources."${edition}") url sha256;
+        };
+
+        meta = {
+          description = "Mozilla Firefox, free web browser (binary package)";
+          homepage = "http://www.mozilla.com/en-US/firefox/";
+        };
+      }
+      // super.lib.attrsets.removeAttrs args ["edition" "extraFiles"]);
 
   floorpPackage = edition:
-    super.stdenv.mkDerivation rec {
+    super.stdenvNoCC.mkDerivation rec {
       inherit (sources."${edition}") version;
       pname = "Floorp";
 
@@ -64,7 +104,7 @@ self: super: let
     };
 
   librewolfPackage = edition:
-    super.stdenv.mkDerivation rec {
+    super.stdenvNoCC.mkDerivation rec {
       inherit (sources."${edition}") version;
       pname = "Librewolf";
 
@@ -92,7 +132,7 @@ self: super: let
     };
 
   zen-browserPackage = edition:
-    super.stdenv.mkDerivation rec {
+    super.stdenvNoCC.mkDerivation rec {
       inherit (sources."${edition}") version;
       pname = "zen-browser";
 
@@ -119,11 +159,11 @@ self: super: let
       };
     };
 in {
-  firefox-bin = firefoxPackage "firefox";
-  firefox-beta-bin = firefoxPackage "firefox-beta";
-  firefox-devedition-bin = firefoxPackage "firefox-devedition";
-  firefox-esr-bin = firefoxPackage "firefox-esr";
-  firefox-nightly-bin = firefoxPackage "firefox-nightly";
+  firefox-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox";};
+  firefox-beta-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox-beta";};
+  firefox-devedition-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox-devedition";};
+  firefox-esr-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox-esr";};
+  firefox-nightly-bin = super.lib.customisation.makeOverridable firefoxPackage {edition = "firefox-nightly";};
   librewolf =
     if super.pkgs.system == "x86_64-darwin"
     then librewolfPackage "librewolf-x86_64"
