@@ -21,8 +21,8 @@
   },
   "firefox-nightly": {
     "version": "143.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/07/2025-07-25-09-37-57-mozilla-central/firefox-143.0a1.en-US.mac.dmg",
-    "sha256": "7f0af4103983f8cacece231868a4bf6820d36159ee9154672d4fe1a7b96303b7"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/07/2025-07-26-21-11-15-mozilla-central/firefox-143.0a1.en-US.mac.dmg",
+    "sha256": "83071a0f40bd5eb3af2123ed6232fe179076ffab91a39a76a9ac856d7db9dae6"
   },
   "librewolf-arm64": {
     "version": "140.0.4-1",
@@ -40,8 +40,8 @@
     "sha256": "62cf384244b9018cae210842b449bf9711593173fdcf221a41d95142b376cee3"
   },
   "zen-browser": {
-    "version": "1.14.7b",
-    "url": "https://github.com/zen-browser/desktop/releases/download/1.14.7b/zen.macos-universal.dmg",
-    "sha256": "baef013ce7183d906b0331eb97456b8957a296027dcbd0174ff5da6abe92fdf7"
+    "version": "1.14.8b",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.14.8b/zen.macos-universal.dmg",
+    "sha256": "2d197bd85e5912d4ea3f4b939a897f61988df8e3622f066021fbf8cdc1b71beb"
   }
 }
