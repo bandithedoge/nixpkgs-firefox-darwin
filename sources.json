@@ -21,18 +21,18 @@
   },
   "firefox-nightly": {
     "version": "146.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/10/2025-10-29-21-49-04-mozilla-central/firefox-146.0a1.en-US.mac.dmg",
-    "sha256": "cb6f5f7a70ba31cc5eae366b01a1b2bd4116f0f22dba8d0d459954be8a81e1ba"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/10/2025-10-30-21-43-18-mozilla-central/firefox-146.0a1.en-US.mac.dmg",
+    "sha256": "98dab2543599ea1a15bbb393fa716e92b8b1f231e0d1d5c30415b65146c57acb"
   },
   "librewolf-arm64": {
-    "version": "144.0-1",
-    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/144.0-1/librewolf-144.0-1-macos-arm64-package.dmg",
-    "sha256": "096cc31a22f6a85f6a2141228d00d30eda8fed50cf65d6cd752077d72e85d645"
+    "version": "144.0.2-1",
+    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/144.0.2-1/librewolf-144.0.2-1-macos-arm64-package.dmg",
+    "sha256": "a50c3de11ab10f93a6bb2a192051f743abf839627377e3d9ac60c53b66d2466f"
   },
   "librewolf-x86_64": {
-    "version": "144.0-1",
-    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/144.0-1/librewolf-144.0-1-macos-x86_64-package.dmg",
-    "sha256": "704f338564d65c3e27da2da85b8fec0491564b4912965f4aca854ce57fa53544"
+    "version": "144.0.2-1",
+    "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/144.0.2-1/librewolf-144.0.2-1-macos-x86_64-package.dmg",
+    "sha256": "868dcffdae3d4f757522c1e761ac8a94e92470ac75502b0eee232d6db524bcc5"
   },
   "floorp-x86_64": {
     "version": "v12.4.0",
@@ -40,8 +40,8 @@
     "sha256": "80fc3499394aea7a44175f2359866e5471213ca03d21e69cde81ebf4ff0d5ae7"
   },
   "zen-browser": {
-    "version": "1.17.3b",
-    "url": "https://github.com/zen-browser/desktop/releases/download/1.17.3b/zen.macos-universal.dmg",
-    "sha256": "6ac138c3b5b74be03e028e21273be73eea5b657b85946294c97c6e41c30519df"
+    "version": "1.17.4b",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.17.4b/zen.macos-universal.dmg",
+    "sha256": "d5d974dabff84e2ac4666f8e242252afcb96e6f86916535abdd1e7966c46e93b"
   }
 }
