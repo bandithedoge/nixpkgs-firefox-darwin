@@ -21,8 +21,8 @@
   },
   "firefox-nightly": {
     "version": "147.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/11/2025-11-14-09-46-37-mozilla-central/firefox-147.0a1.en-US.mac.dmg",
-    "sha256": "c45da764a91eb6920cb8b9a65f2f533adaf07d494eaed430308ae0a2a6eb17b8"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/11/2025-11-15-20-40-42-mozilla-central/firefox-147.0a1.en-US.mac.dmg",
+    "sha256": "b0af8c1a1f4973f96d3b7118c363f6ce478d1f04067cb60f0c009eaa0249e6b3"
   },
   "librewolf-arm64": {
     "version": "144.0.2-1",
@@ -35,13 +35,13 @@
     "sha256": "868dcffdae3d4f757522c1e761ac8a94e92470ac75502b0eee232d6db524bcc5"
   },
   "floorp-x86_64": {
-    "version": "v12.5.0",
-    "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.5.0/floorp-macOS-universal.dmg",
-    "sha256": "47ce375f94da95227abf2d48ca641585b6411ee067ec1ca02b6ccdba857e3c87"
+    "version": "v12.6.0",
+    "url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.6.0/floorp-macOS-universal.dmg",
+    "sha256": "343788c76781f864a5e7bdad02f65bf79caf24918ade056215086addaae98135"
   },
   "zen-browser": {
-    "version": "1.17.6b",
-    "url": "https://github.com/zen-browser/desktop/releases/download/1.17.6b/zen.macos-universal.dmg",
-    "sha256": "aa15675f244ce78a44675a026fbc2d5acb51b29fc1b7a6f55d17fa88ea7acaa0"
+    "version": "1.17.7b",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.17.7b/zen.macos-universal.dmg",
+    "sha256": "ac0b9d08e9fb42dbccf03c9062d36716459a23a9e69e6b35f9ce89cff06538c0"
   }
 }
