@@ -5,14 +5,14 @@
     "sha256": "80f5851f90de88d1b8d27299cb0a3ff3b9ff3774c275de2675f651834bd9228b"
   },
   "firefox-beta": {
-    "version": "146.0b7",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/146.0b7/mac/en-US/Firefox%20146.0b7.dmg",
-    "sha256": "0204ae77dfb7cadcbe3d008083b58e38d79c885d6924c4a66eb26b1d50dee8b2"
+    "version": "146.0b8",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/146.0b8/mac/en-US/Firefox%20146.0b8.dmg",
+    "sha256": "27e5293fb36fcbe52a83f8962e7b3f52d9a3ef30a5d4a8b8d5e891b81c02ef4b"
   },
   "firefox-devedition": {
-    "version": "146.0b7",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/146.0b7/mac/en-US/Firefox%20146.0b7.dmg",
-    "sha256": "3ba701148bcdd184468ed2e68ea1d2884226c4ffa79bb027e2188b44678005a4"
+    "version": "146.0b8",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/146.0b8/mac/en-US/Firefox%20146.0b8.dmg",
+    "sha256": "0c65c274b625ed82401e3ac4d7bcc55cab757ebf6b58dfdcbaa7a4ea0b511b10"
   },
   "firefox-esr": {
     "version": "140.5.0esr",
@@ -21,8 +21,8 @@
   },
   "firefox-nightly": {
     "version": "147.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/11/2025-11-25-20-46-54-mozilla-central/firefox-147.0a1.en-US.mac.dmg",
-    "sha256": "467678d176e80a4bba9fc0600d3c16078ece4b0c2f932adaae06b9064baf9bca"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/11/2025-11-26-20-32-39-mozilla-central/firefox-147.0a1.en-US.mac.dmg",
+    "sha256": "92d7641d48016ff9d5644c06a1e2c322625e8faf8b5ef6998517cc5ef2b4e2db"
   },
   "librewolf-arm64": {
     "version": "145.0.1-2",
@@ -40,8 +40,8 @@
     "sha256": "fce34267d614417ff2d672214dbc8e3c9577fa9898eecbac5fb3c98bc72bda70"
   },
   "zen-browser": {
-    "version": "1.17.9b",
-    "url": "https://github.com/zen-browser/desktop/releases/download/1.17.9b/zen.macos-universal.dmg",
-    "sha256": "d7748cf10c69909c15cf68c1b2426e69ec4706a4e7f16cce97610c8dfa45245f"
+    "version": "1.17.10b",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.17.10b/zen.macos-universal.dmg",
+    "sha256": "a706de4091e94284a9e9fb6815665b28cb0795a412ad8d732dd4b6e2f7ff0af4"
   }
 }
