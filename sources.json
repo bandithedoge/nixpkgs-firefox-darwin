@@ -1,28 +1,28 @@
 {
   "firefox": {
-    "version": "145.0.2",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/145.0.2/mac/en-US/Firefox%20145.0.2.dmg",
-    "sha256": "80f5851f90de88d1b8d27299cb0a3ff3b9ff3774c275de2675f651834bd9228b"
+    "version": "146.0",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/146.0/mac/en-US/Firefox%20146.0.dmg",
+    "sha256": "4b1645313887972d466cd82166ea571485c2c40a167f84624e3f3ca739993cc9"
   },
   "firefox-beta": {
-    "version": "146.0b9",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/146.0b9/mac/en-US/Firefox%20146.0b9.dmg",
-    "sha256": "b943d1235da598063c1f34d3f51825f8e8bab4d33b37c801f63a915b29d351f8"
+    "version": "147.0b1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/147.0b1/mac/en-US/Firefox%20147.0b1.dmg",
+    "sha256": "4448b7f26c8772fdd763a88652b233a5b2da0d2d429a1d7738b48f828e63901d"
   },
   "firefox-devedition": {
-    "version": "146.0b9",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/146.0b9/mac/en-US/Firefox%20146.0b9.dmg",
-    "sha256": "580df1bf9b2a33be88caceaf6b33f353e4359ce8802254201f396aaec0d79e95"
+    "version": "147.0b1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/147.0b1/mac/en-US/Firefox%20147.0b1.dmg",
+    "sha256": "158b3c3f4f1877c3441c69387c3bbd826f4401eb43822a60707846150cf353a9"
   },
   "firefox-esr": {
-    "version": "140.5.0esr",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.5.0esr/mac/en-US/Firefox%20140.5.0esr.dmg",
-    "sha256": "7f256f39f1ec8073d82a9492dc2409c449a93a026a538a63c9ff7436ad13e388"
+    "version": "140.6.0esr",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.6.0esr/mac/en-US/Firefox%20140.6.0esr.dmg",
+    "sha256": "9449562cc131207c644f064cd2c5f637610739040c821dbb86317a4203eb4a8c"
   },
   "firefox-nightly": {
     "version": "148.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/12/2025-12-08-22-02-32-mozilla-central/firefox-148.0a1.en-US.mac.dmg",
-    "sha256": "2bbae3894f8042cb76c04685608d9bfad22c5e06b746440703e972aac239ea48"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2025/12/2025-12-09-14-30-57-mozilla-central/firefox-148.0a1.en-US.mac.dmg",
+    "sha256": "7f2cc98a626f6b24cbce1bd3ca66e2fb243248f5b7178df8024ee7f86e39e612"
   },
   "librewolf-arm64": {
     "version": "145.0.2-2",
