@@ -5,11 +5,11 @@
 base_url="https://download-installer.cdn.mozilla.net/pub"
 
 function generate_json_librewolf() {
-  base_json_librewolf="$(curl -s https://gitlab.com/api/v4/projects/44042130/releases/)"
-  url="$(echo $base_json_librewolf | jq -r '.[0].assets.links[].direct_asset_url' | grep .macos-$1-package.dmg$)"
+  base_json_librewolf="$(curl -s https://codeberg.org/api/v1/repos/librewolf/bsys6/releases/latest)"
+  url="$(echo $base_json_librewolf | jq -r '.assets[].browser_download_url' | grep .macos-$1-package.dmg$)"
 
   jq -n \
-    --arg version "$(echo $base_json_librewolf | jq -r '.[0].tag_name')" \
+    --arg version "$(echo $base_json_librewolf | jq -r '.tag_name')" \
     --arg url $url \
     --arg sha256 "$(curl -sL $url.sha256sum)" \
     '{version: $version, url: $url, sha256: $sha256}'
