@@ -1,8 +1,8 @@
 {
   "firefox": {
-    "version": "150.0.2",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0.2/mac/en-US/Firefox%20150.0.2.dmg",
-    "sha256": "3d00b37eff651e7189496d5cc6a1ce6a8a2541a64e908512312ac3147256c827"
+    "version": "150.0.3",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/150.0.3/mac/en-US/Firefox%20150.0.3.dmg",
+    "sha256": "5f8571d35b883c9c210ad4249f25c6a46e7861291a440f65d5249587dd1b9051"
   },
   "firefox-beta": {
     "version": "151.0b9",
@@ -21,18 +21,18 @@
   },
   "firefox-nightly": {
     "version": "152.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/05/2026-05-11-16-01-44-mozilla-central/firefox-152.0a1.en-US.mac.dmg",
-    "sha256": "f4932f820e5368eed73c204b1e505d89c4fe6008cd1eeeb70f18f160e5ce3507"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/05/2026-05-12-21-26-23-mozilla-central/firefox-152.0a1.en-US.mac.dmg",
+    "sha256": "e12a2d4fc5d76c9b0bbc075bf3e1b4b13d98872c1623efe26178a75d912a11f6"
   },
   "librewolf-arm64": {
-    "version": "150.0.2-1",
-    "url": "https://dl.librewolf.net/librewolf/150.0.2-1/librewolf-150.0.2-1-macos-arm64-package.dmg",
-    "sha256": "3a22fd5f41d06afca48613addb9b5eaefc5277a2294490da31ec071fc7d6769a"
+    "version": "150.0.3-1",
+    "url": "https://dl.librewolf.net/librewolf/150.0.3-1/librewolf-150.0.3-1-macos-arm64-package.dmg",
+    "sha256": "f31deece37e79d5d3c9e6ba452a05d1df2e1a480744ddb34dc468ea3d2bb66e2"
   },
   "librewolf-x86_64": {
-    "version": "150.0.2-1",
-    "url": "https://dl.librewolf.net/librewolf/150.0.2-1/librewolf-150.0.2-1-macos-x86_64-package.dmg",
-    "sha256": "a60aa45d4a7317378aaab6259298fec406b3079d5e79da7aaadecbe58e846fea"
+    "version": "150.0.3-1",
+    "url": "https://dl.librewolf.net/librewolf/150.0.3-1/librewolf-150.0.3-1-macos-x86_64-package.dmg",
+    "sha256": "ca9133f0a6a1950aa4ddbb877c82a2b39346d18034f2c9091b2e114fe345e5f4"
   },
   "floorp-x86_64": {
     "version": "v12.14.0",
