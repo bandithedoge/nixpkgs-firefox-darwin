@@ -20,9 +20,9 @@
     "sha256": "4f08fe2e2f806fcb6db9cea31f7aa4094395a522ba7b510cc07981ecc0476a11"
   },
   "firefox-nightly": {
-    "version": "152.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/05/2026-05-17-20-36-05-mozilla-central/firefox-152.0a1.en-US.mac.dmg",
-    "sha256": "5fea6382b7750bb6af02f81d62059ea4357e73dafb218d225dc3f5f984701879"
+    "version": "153.0a1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/05/2026-05-18-21-57-35-mozilla-central/firefox-153.0a1.en-US.mac.dmg",
+    "sha256": "3fe35274671abc2b82328a3c876f59a92150849e0a80f5f2bb1a0a1844339792"
   },
   "librewolf-arm64": {
     "version": "150.0.3-1",
