@@ -1,8 +1,8 @@
 {
   "firefox": {
-    "version": "153.0.4",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.0.4/mac/en-US/Firefox%20153.0.4.dmg",
-    "sha256": "792b313c7e2d2b1327f76f455315dd9d68c59c96935aa5e8c67ae42fe6aeea97"
+    "version": "154.0",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/154.0/mac/en-US/Firefox%20154.0.dmg",
+    "sha256": "b0295d3b77ec632a60282cf2b9770e1dada085879d00e43d8d23fddf5015e06a"
   },
   "firefox-beta": {
     "version": "155.0b1",
@@ -15,24 +15,24 @@
     "sha256": "9de637ce72e4d1a274981a4f3156ac2d3c8eb18d097b1151608c8b6ab19cca83"
   },
   "firefox-esr": {
-    "version": "140.13.0esr",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.13.0esr/mac/en-US/Firefox%20140.13.0esr.dmg",
-    "sha256": "0a7c51def21ab65d295d839c270405d0a2c2a04d589e8ce92c5e238eeb3f1827"
+    "version": "140.14.0esr",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/140.14.0esr/mac/en-US/Firefox%20140.14.0esr.dmg",
+    "sha256": "445e1beb50889621775c1e4780e44abc5de4ebf963906b62fee5356f96fb4b21"
   },
   "firefox-nightly": {
     "version": "156.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/08/2026-08-17-21-08-08-mozilla-central/firefox-156.0a1.en-US.mac.dmg",
-    "sha256": "24305f7a0cbe7f220af556b91304f365770f19309ddf2c85aa56ac6241ae3556"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/08/2026-08-18-09-20-26-mozilla-central/firefox-156.0a1.en-US.mac.dmg",
+    "sha256": "a5215f7e5441c3e9e3071e0fca378ab8b1a6222452ce66e7a65a2c399a4adec7"
   },
   "librewolf-arm64": {
-    "version": "153.0.4-1",
-    "url": "https://dl.librewolf.net/librewolf/153.0.4-1/librewolf-153.0.4-1-macos-arm64-package.dmg",
-    "sha256": "4971d23a262a7414d6d7de2bc0449832a7e39cb341fc3f9b7388fe181fbf24a1"
+    "version": "154.0-2",
+    "url": "https://dl.librewolf.net/librewolf/154.0-2/librewolf-154.0-2-macos-arm64-package.dmg",
+    "sha256": "5cbc1df3f927b3034600bc961681c0ce5624e6758388499b4b34048c5bd57f01"
   },
   "librewolf-x86_64": {
-    "version": "153.0.4-1",
-    "url": "https://dl.librewolf.net/librewolf/153.0.4-1/librewolf-153.0.4-1-macos-x86_64-package.dmg",
-    "sha256": "7d856314effa69e6955f1db4b2e94209b30b9b3757f324499db5e3acef0ae609"
+    "version": "154.0-2",
+    "url": "https://dl.librewolf.net/librewolf/154.0-2/librewolf-154.0-2-macos-x86_64-package.dmg",
+    "sha256": "f25f7f96ce2feca8a156bd1e3db88fd52c3238c338711e70dcd8cb80e7847b42"
   },
   "floorp-x86_64": {
     "version": "v12.16.4",
