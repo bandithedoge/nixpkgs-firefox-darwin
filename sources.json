@@ -21,18 +21,18 @@
   },
   "firefox-nightly": {
     "version": "157.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/09/2026-09-04-16-04-49-mozilla-central/firefox-157.0a1.en-US.mac.dmg",
-    "sha256": "2bd5395d9076a64191a0987b7291f33518cd407dee8417bb7b343f352336c388"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/09/2026-09-06-20-37-23-mozilla-central/firefox-157.0a1.en-US.mac.dmg",
+    "sha256": "88fc19781f2d1a47d0b1bb7c03b7dcb8f8ba6551d2b59146e4c9a1b9a98dbbe0"
   },
   "librewolf-arm64": {
-    "version": "155.0-1",
-    "url": "https://dl.librewolf.net/librewolf/155.0-1/librewolf-155.0-1-macos-arm64-package.dmg",
-    "sha256": "9082d7e2f79c33e5c8994975b73d6d9284594e2048d36f6b11c418b90158b96b"
+    "version": "155.0.1-1",
+    "url": "https://dl.librewolf.net/librewolf/155.0.1-1/librewolf-155.0.1-1-macos-arm64-package.dmg",
+    "sha256": "3fec7bbacadf5c00d59a5e3af5bac104f7707476029a1d6c75f146e2295697f7"
   },
   "librewolf-x86_64": {
-    "version": "155.0-1",
-    "url": "https://dl.librewolf.net/librewolf/155.0-1/librewolf-155.0-1-macos-x86_64-package.dmg",
-    "sha256": "e075e6102d874b6679d26b8ad55e295fac7f916df5fb4f94177af70080e159de"
+    "version": "155.0.1-1",
+    "url": "https://dl.librewolf.net/librewolf/155.0.1-1/librewolf-155.0.1-1-macos-x86_64-package.dmg",
+    "sha256": "f9fd0a6530027be0be7fffe597715639cd9624bc5317b7c5f70deb9f6142ca24"
   },
   "floorp-x86_64": {
     "version": "v12.17.2",
@@ -40,8 +40,8 @@
     "sha256": "7086e8817196e2dde6fb89555b18453e5f201eeeaff4ab6807c15ba49a8dac3e"
   },
   "zen-browser": {
-    "version": "1.21.16b",
-    "url": "https://github.com/zen-browser/desktop/releases/download/1.21.16b/zen.macos-universal.dmg",
-    "sha256": "356068b2ad497e01d185779b747307fbacb3bc367a7510d169869608fba1d38f"
+    "version": "1.22b",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.22b/zen.macos-universal.dmg",
+    "sha256": "39dd0fc40523ffe4749c3e977e10fd6c9005d6d11285421899114dadbbbfdd9b"
   }
 }
