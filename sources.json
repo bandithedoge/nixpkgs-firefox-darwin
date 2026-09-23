@@ -1,8 +1,8 @@
 {
   "firefox": {
-    "version": "156.0",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/156.0/mac/en-US/Firefox%20156.0.dmg",
-    "sha256": "fecc46103039ca4a77ecb2b2ef7b03892f922e13db0782f8570c512b2e458515"
+    "version": "156.0.1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/156.0.1/mac/en-US/Firefox%20156.0.1.dmg",
+    "sha256": "7eda94829670b892524eddfee575d16fe74b9329d3d0795367cce035207d34a4"
   },
   "firefox-beta": {
     "version": "157.0b4",
@@ -21,18 +21,18 @@
   },
   "firefox-nightly": {
     "version": "158.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/09/2026-09-21-19-57-07-mozilla-central/firefox-158.0a1.en-US.mac.dmg",
-    "sha256": "60a0866144d160852312d995e1984fa29de84608471464908451237e0b791e87"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/09/2026-09-22-21-13-42-mozilla-central/firefox-158.0a1.en-US.mac.dmg",
+    "sha256": "ddc2f69910f38ffff4b07afd744b56947adecb4bd21f49069f6d66b9ee72262a"
   },
   "librewolf-arm64": {
-    "version": "156.0-1",
-    "url": "https://dl.librewolf.net/librewolf/156.0-1/librewolf-156.0-1-macos-arm64-package.dmg",
-    "sha256": "e957e3fb07dc7452aae41b50375f3a860fb5c9c385f3505353b2f498e670ce28"
+    "version": "156.0.1-1",
+    "url": "https://dl.librewolf.net/librewolf/156.0.1-1/librewolf-156.0.1-1-macos-arm64-package.dmg",
+    "sha256": "d67ebcc8f3711b398979facfec9a5cf086fb055a81f8b95094bb2d81c9dc0061"
   },
   "librewolf-x86_64": {
-    "version": "156.0-1",
-    "url": "https://dl.librewolf.net/librewolf/156.0-1/librewolf-156.0-1-macos-x86_64-package.dmg",
-    "sha256": "258f0a571c8de36be6210b4dc0d11db83f8daadb9ac52b631bc1260eed3adf1b"
+    "version": "156.0.1-1",
+    "url": "https://dl.librewolf.net/librewolf/156.0.1-1/librewolf-156.0.1-1-macos-x86_64-package.dmg",
+    "sha256": "97d83fdf212469178c082db7c02aaff51d4bc98b5980b85b9873f7e0a8a7bd8a"
   },
   "floorp-x86_64": {
     "version": "v12.18.0",
