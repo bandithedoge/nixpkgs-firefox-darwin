@@ -5,14 +5,14 @@
     "sha256": "40a0a649120635460256dae9ad63e40377f77326cbc9c449a5d0a1d7f5dd7982"
   },
   "firefox-beta": {
-    "version": "158.0b4",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/158.0b4/mac/en-US/Firefox%20158.0b4.dmg",
-    "sha256": "d9c2a1e4a4aabc67a2cdccc5645a93d3771865eda28189470d8821cbe12f8ee5"
+    "version": "158.0b5",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/158.0b5/mac/en-US/Firefox%20158.0b5.dmg",
+    "sha256": "7b087cdafd0b68d68d27dbef215e201fe72653d004e20ac2f0286c424b9033cf"
   },
   "firefox-devedition": {
-    "version": "158.0b4",
-    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/158.0b4/mac/en-US/Firefox%20158.0b4.dmg",
-    "sha256": "1ec8148ee4907f76453def0ca89e362d87a5b371c3cce3d08d213f537e851ac1"
+    "version": "158.0b5",
+    "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/158.0b5/mac/en-US/Firefox%20158.0b5.dmg",
+    "sha256": "c281c29fa527ee480c608e34b223c98b32de488073b60c2cc13b8b5869f52c3c"
   },
   "firefox-esr": {
     "version": "140.17.0esr",
@@ -21,18 +21,18 @@
   },
   "firefox-nightly": {
     "version": "159.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/10/2026-10-06-19-44-15-mozilla-central/firefox-159.0a1.en-US.mac.dmg",
-    "sha256": "c89f1ad6f4dc05b3880d8f138b90be71ada9287b068666008d2b69cd4333d869"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/10/2026-10-07-16-25-42-mozilla-central/firefox-159.0a1.en-US.mac.dmg",
+    "sha256": "a7d29776a4a06967b50cde4ce52cf6074476cd25ac5781a5954226e308652eb4"
   },
   "librewolf-arm64": {
-    "version": "157.0-1",
-    "url": "https://dl.librewolf.net/librewolf/157.0-1/librewolf-157.0-1-macos-arm64-package.dmg",
-    "sha256": "6c3e809f47d29d9980c85a64e4bdeac9dc81b3a623019134bf9185cb9e0bc87d"
+    "version": "157.0.1-1",
+    "url": "https://dl.librewolf.net/librewolf/157.0.1-1/librewolf-157.0.1-1-macos-arm64-package.dmg",
+    "sha256": "d1518f48d7b54be8a1e6bd04d85a8dd6a2153e3b16d14344495a3ddda65b6e8d"
   },
   "librewolf-x86_64": {
-    "version": "157.0-1",
-    "url": "https://dl.librewolf.net/librewolf/157.0-1/librewolf-157.0-1-macos-x86_64-package.dmg",
-    "sha256": "bc69981de77421c5f918c43ad7a8b2cc34637308e173e9ec0e6d3ed6634b0c48"
+    "version": "157.0.1-1",
+    "url": "https://dl.librewolf.net/librewolf/157.0.1-1/librewolf-157.0.1-1-macos-x86_64-package.dmg",
+    "sha256": "6c2cea98958f51f8c572a2d9a1126b8cf6c0a07f8db03ef1f01fe007d115ea2c"
   },
   "floorp-x86_64": {
     "version": "v12.19.0",
@@ -40,8 +40,8 @@
     "sha256": "76507232633c6bf35fedb7e006458e26a1ca4e22e8ce1c4d795665c669e711a0"
   },
   "zen-browser": {
-    "version": "1.23b",
-    "url": "https://github.com/zen-browser/desktop/releases/download/1.23b/zen.macos-universal.dmg",
-    "sha256": "3b06f974000c5f76267ad9cf53abf4b80c1958b626d99cc60cd503e551858ec3"
+    "version": "1.23.1b",
+    "url": "https://github.com/zen-browser/desktop/releases/download/1.23.1b/zen.macos-universal.dmg",
+    "sha256": "582c58cacffe048d178daec5091da7dae242002070a0f898828eee4b8cc7a186"
   }
 }
