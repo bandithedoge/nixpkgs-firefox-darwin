@@ -1,8 +1,8 @@
 {
   "firefox": {
-    "version": "160.0",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/160.0/mac/en-US/Firefox%20160.0.dmg",
-    "sha256": "b270ccc60eb899bd0277bd078d7bd8690f5c4fc3e44b4fa9ee78ed2a3e89f0ca"
+    "version": "160.0.1",
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/160.0.1/mac/en-US/Firefox%20160.0.1.dmg",
+    "sha256": "db9a522291d82cbe9a2b2922822def4db0a79d4fa3e614979039d705b13b1c25"
   },
   "firefox-beta": {
     "version": "161.0b4",
@@ -21,8 +21,8 @@
   },
   "firefox-nightly": {
     "version": "162.0a1",
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/11/2026-11-16-20-42-39-mozilla-central/firefox-162.0a1.en-US.mac.dmg",
-    "sha256": "377d6db8e22c5c18cc0eb47186967ae2dd17298b3c439de656b11e0e732ee14c"
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/nightly/2026/11/2026-11-17-19-33-37-mozilla-central/firefox-162.0a1.en-US.mac.dmg",
+    "sha256": "1578ad5bcdee2a34424d7b0edbe198247baa275d45c459478965e4c8a60f1535"
   },
   "librewolf-arm64": {
     "version": "160.0-1",
